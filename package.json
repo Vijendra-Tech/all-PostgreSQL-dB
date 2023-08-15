@@ -1,0 +1,25 @@
+{
+  "name": "postgres-db-complete",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "image-downloader": "^4.3.0",
+    "morgan": "^1.10.0",
+    "pg": "^8.11.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "prettier": "^3.0.1"
+  }
+}
